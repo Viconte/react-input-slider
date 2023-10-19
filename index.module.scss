@@ -1,0 +1,85 @@
+@import "../colors.module.scss";
+
+.root {
+    position: relative;
+    height: 70px;
+}
+
+.label {
+    position: absolute;
+    bottom: 0;
+    font-family: 'WB Hauss', sans-serif;
+    font-size: 16px;
+}
+
+.labelMin {
+    left: 0;
+}
+
+.labelMinValue {
+    position: relative;
+    left: -50%;
+}
+
+.labelMax {
+    right: 0;
+}
+
+.labelMaxValue {
+    position: relative;
+    right: -50%;
+}
+
+.track {
+    background-color: $grey300;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.trackActive {
+    background-color: $purple500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-radius: 10px;
+    transition: width .1s ease-out;
+}
+
+.slider {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    height: 32px;
+    width: 32px;
+    border: 6px solid $white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: left .1s ease-out;
+    background-color: $purple900;
+    box-shadow: 0px 12px 16px 0px rgba($black, .04);
+    -webkit-tap-highlight-color: rgba($white, 0);
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
+.sliderLabel {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'WB Hauss', sans-serif;
+    font-size: 16px;
+}
+
+.sliderLabelValue {
+    position: relative;
+    left: -50%;
+}
