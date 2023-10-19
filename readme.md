@@ -1,4 +1,4 @@
-## React Inpit Slider
+## React Input Slider
 
 ![](https://i.postimg.cc/Dwv1kgZw/2023-10-19-17-10-31.png)
 
