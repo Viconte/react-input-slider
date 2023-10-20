@@ -5,7 +5,13 @@
 ## Usage
 
 ```jsx
-    <Slider defaultValue={10} isShowLegend maxValue={100} minValue={0} onChange={() => {}} />
+<Slider
+  defaultValue={10}
+  isShowLegend
+  maxValue={100}
+  minValue={0}
+  onChange={() => {}}
+/>
 ```
 
 ## API
