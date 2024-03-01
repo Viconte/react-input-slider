@@ -1,6 +1,7 @@
 .root {
     position: relative;
     height: 70px;
+    color: #000;
 }
 
 .label {
@@ -46,23 +47,21 @@
     left: 0;
     width: 0;
     border-radius: 10px;
-    transition: width .1s ease-out;
 }
 
 .slider {
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translate(-50%, -50%);
+    right: 0;
+    transform: translate(50%, -50%);
     height: 32px;
     width: 32px;
     border: 6px solid #fff;
     border-radius: 50%;
     box-sizing: border-box;
-    transition: left .1s ease-out;
     background-color: #660ec8;
-    box-shadow: 0px 12px 16px 0px rgba(#000, .04);
-    -webkit-tap-highlight-color: rgba(#fff, 0);
+    box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, .4);
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
 }
