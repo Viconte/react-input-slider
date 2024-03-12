@@ -2,6 +2,9 @@
 
 ![](https://i.postimg.cc/Dwv1kgZw/2023-10-19-17-10-31.png)
 
+## Demo
+[Demo](https://viconte.github.io/react-input-slider/)
+
 ## Usage
 
 ```jsx
