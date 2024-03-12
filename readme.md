@@ -19,32 +19,15 @@
 
 ## API
 
-#### className: string
-Стилевой класс контейнера слайдера
-
-#### classNameTrack: string
-Стилевой класс трека
-
-#### classNameActiveTrack: string
-Стилевой класс активного трека
-
-#### classNameSlider: string
-Стилевой класс бегунка
-
-#### minValue: number
-Минимальное значение
-
-#### maxValue: number
-Максимальное значение
-
-#### defaultValue: number
-Начальное значение
-
-#### step: number
-Шаг
-
-#### isShowLegend: boolean
-Флаг отображения легенды
-
-#### onChange: (value: number): void
-Обработчик изменний
+| Название             | Тип      | Описание                                     |
+|----------------------|----------|----------------------------------------------|
+| className            | string   | Устанавливает стиль контейнера слайдера      |
+| classNameTrack       | string   | Устанавливает стиль трека слайдера           |
+| classNameActiveTrack | string   | Устанавливает стиль активного трека слайдера |
+| classNameSlider      | string   | Устанавливает стиль бегунка слайдера         |
+| minValue             | number   | Устанавливает минимальное значение           |
+| maxValue             | number   | Устанавливает максимальное значение          |
+| defaultValue         | number   | Устанавливает значение по умолчанию          |
+| step                 | number   | Устанавливает шаг                            |
+| isShowLegend         | boolean  | Флаг отображения легенды                     |
+| onChange             | function | Обработчик значений                          |
